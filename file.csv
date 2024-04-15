@@ -1,0 +1,37 @@
+    1  git config --global --unset user.name
+    2  git config --global --unset user.email
+    3  git config --global user.name "new"
+    4  git config --global user.name "new@mail"
+    5  git clone https://github.com/AndrewBondarev/one-more.git
+    6  cd one-more
+    7  touch newFile.txt
+    8  git add newFile.txt
+    9  git commit -m "new"
+   10  git config --global user.name "new@mail.com"
+   11  git commit -m "new"
+   12  git config --global user.email "text@gmail.com"
+   13  git config --global user.name "My name"
+   14  git commit -m "new_n"
+   15  history > file.csv
+   16  git add file.csv
+   17  git commit -m "csv"
+   18  git push origin main
+   19  chmod 000 ~/.bash_history
+   20  nano ~/.bash_history
+   21  > ~/.bash_history
+   22  nano ~/.bash_history
+   23  chmod 000 ~/.bash_history
+   24  > ~/.bash_history
+   25  chmod 777 ~/.bash_history
+   26  > ~/.bash_history
+   27  nano ~/.bash_history
+   28  git clone https://github.com/AndrewBondarev/repo_1.git
+   29  cd repo_1
+   30  git status 
+   31  echo fff > .gitignore
+   32  git commit -m "no add"
+   33  git push origin main
+   34  git add .gitignore 
+   35  git commit -m "qwert"
+   36  git push origin main 
+   37  history > file.csv
